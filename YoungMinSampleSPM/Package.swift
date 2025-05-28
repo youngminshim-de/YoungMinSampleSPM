@@ -35,6 +35,6 @@ let package = Package(
         ),
         // binary 배포시에는 zip 파일을 release에 업로드 한다.
         // zip 파일에 대한 SHA-256 값을 구해 checksum에 넣는다. (무결성 체크)
-        .binaryTarget(name: "YoungMinSampleSPM", url: "https://github.com/your-id/YoungminSampleFramework/releases/download/1.0.0/YoungminSampleFramework.xcframework.zip", checksum: "")
+//        .binaryTarget(name: "YoungMinSampleSPM", url: "https://github.com/your-id/YoungminSampleFramework/releases/download/1.0.0/YoungminSampleFramework.xcframework.zip", checksum: "")
     ]
 )
